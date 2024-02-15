@@ -5,12 +5,12 @@ import {
 } from "react-router-dom";
 import Login from './pages/Login'
 import Dashboard from './pages/Dashboard'
-import Test1 from './pages/Tests/Test1'
-import Lesson1 from "./pages/Lessons/Lesson1";
-import Test2 from './pages/Tests/Test2'
-import Lesson2 from "./pages/Lessons/Lesson2";
-import Test3 from './pages/Tests/Test3'
-import Lesson3 from "./pages/Lessons/Lesson3";
+import Test1 from './pages/Tests/TestOne'
+import LessonOne from "./pages/Lessons/LessonOne";
+import Test2 from './pages/Tests/TestTwo'
+import LessonTwo from "./pages/Lessons/LessonTwo";
+import Test3 from './pages/Tests/TestThree'
+import LessonThree from "./pages/Lessons/LessonThree";
 
 function App() {
   return (
@@ -20,11 +20,11 @@ function App() {
         <Routes> 
           <Route exact path="/" element={<Login />} /> 
           <Route path="/dashboard" element={<Dashboard />} /> 
-          <Route path="/lesson1" element={<Lesson1 />} /> 
+          <Route path="/lesson1" element={<LessonOne />} /> 
           <Route path="/test1" element={<Test1 />} /> 
-          <Route path="/lesson2" element={<Lesson2 />} /> 
+          <Route path="/lesson2" element={<LessonTwo />} /> 
           <Route path="/test2" element={<Test2 />} /> 
-          <Route path="/lesson3" element={<Lesson3 />} /> 
+          <Route path="/lesson3" element={<LessonThree />} /> 
           <Route path="/test3" element={<Test3 />} /> 
 
         </Routes>
